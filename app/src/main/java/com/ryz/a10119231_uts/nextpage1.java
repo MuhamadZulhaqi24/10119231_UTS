@@ -6,15 +6,16 @@ import android.os.Bundle;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class nextpage1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_nextpage1);
         Objects.requireNonNull(getSupportActionBar()).hide();
     }
 }
+
 /** NIM   : 10119231
  * Nama   : Muhamad Zulhaqi
  * Kelas  : IF-6
